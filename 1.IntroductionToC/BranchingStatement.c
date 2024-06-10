@@ -8,22 +8,22 @@ int main()
     {
         if(a>c)
         {
-            printf("%d is largest number among %d and %d",a,b,c);
+            printf("%d is largest number compare to %d and %d",a,b,c);
         }
         else
         {
-            printf("%d is largest number among %d and %d",c,b,a);
+            printf("%d is largest number compare to %d and %d",c,b,a);
         }
     }
     else
     {
         if(b>c)
         {
-            printf("%d is largest number among %d and %d",b,a,c);
+            printf("%d is largest number compare to %d and %d",b,a,c);
         }
         else
         {
-            printf("%d is largest number among %d and %d",c,b,a);
+            printf("%d is largest number compare to %d and %d",c,b,a);
         }
     }
     return 0;
