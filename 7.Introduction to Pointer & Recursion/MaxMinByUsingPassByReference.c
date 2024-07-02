@@ -19,6 +19,8 @@ int main()
     int maxx,minn;
     findMaxMin(arr,sizeOfArr,&maxx,&minn);
     printf("Maxx Is %d\nMinn is %d\n",maxx,minn);
+    /* Maxx Is 75
+    Minn is 2 */
 
     return 0;
 }

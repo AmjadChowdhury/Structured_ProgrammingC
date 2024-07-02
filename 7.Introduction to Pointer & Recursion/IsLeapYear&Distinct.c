@@ -7,15 +7,15 @@ int isLeap(int year)
 }
 int isDistinct(int year)
 {
-    int arr[] = {0,0,0,0,0,0,0,0,0,0};
+    int nums[] = {0,0,0,0,0,0,0,0,0,0};
     while(year >= 1)
     {
-        arr[year%10]++;
+        nums[year%10]++;
         year /= 10;
     }
     for(int i=0;i<10;i++)
     {
-        if(arr[i] > 1)
+        if(nums[i] > 1)
             return 0;
     }
     return 1;
