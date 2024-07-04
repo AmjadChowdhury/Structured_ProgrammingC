@@ -14,8 +14,7 @@ int main()
     int* pa = &a;
     double* pd = (double*) pa;
 
-    *pa = 5;
-    printf("%d\n",*pd);
+
 
     return 0;
 }

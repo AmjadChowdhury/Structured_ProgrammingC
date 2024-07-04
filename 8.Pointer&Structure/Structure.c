@@ -14,6 +14,7 @@ int main()
     s1.age = 21;
 
     printf("Roll => %d\tName => %s\tAge => %d",s1.roll,s1.name,s1.age);
+    // Roll => 2056    Name => Amjad chy       Age => 21
 
     return 0;
 }

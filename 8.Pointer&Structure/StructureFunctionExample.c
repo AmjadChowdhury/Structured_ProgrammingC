@@ -14,6 +14,6 @@ int main()
     struct point d1 = {0,0};
     struct point d2 = {3,4};
     double ans = dis(d1,d2);
-    printf("%lf\n",ans); // 5
+    printf("%lf\n",ans); // 5.00
     return 0;
 }

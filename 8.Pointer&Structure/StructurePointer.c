@@ -10,5 +10,6 @@ int main()
     struct student* sp;
     sp = &s;
     printf("Roll = %d,Age = %d\n",sp->roll,sp->age);
+    // Roll = 2056,Age = 21
     return 0;
 }

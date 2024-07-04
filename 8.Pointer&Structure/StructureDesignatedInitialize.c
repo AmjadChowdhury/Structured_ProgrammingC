@@ -13,5 +13,6 @@ int main()
     printf("%s info => Roll->%d,name->%s,Age->%d\n",s1.name,s1.roll,s1.name,s1.age);
     // Rahat Khan info => Roll->2165,name->Rahat Khan,Age->23
     printf("%s info => Roll->%d,name->%s,Age->%d\n",s2.name,s2.roll,s2.name,s2.age);
+    // Amjadul Alam info => Roll->2056,name->Amjadul Alam,Age->21
     return 0;
 }

@@ -11,7 +11,7 @@ int main()
     int large,small;
 
     LS(a,b,&large,&small);
-    printf("%d %d",large,small);
+    printf("Large Number = %d\nSmall Number %d",large,small);
 
     return 0;
 }
