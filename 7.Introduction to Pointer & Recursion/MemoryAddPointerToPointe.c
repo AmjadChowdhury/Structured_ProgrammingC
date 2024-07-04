@@ -9,8 +9,8 @@ int main()
     printf("%p\n",q); // 000000000061FE08
 
     **q = a*10;
-    printf("%d\n",a);
-    printf("%d\n",**q);
+    printf("%d\n",a); // 230
+    printf("%d\n",**q); // 230
 
     return 0;
 }

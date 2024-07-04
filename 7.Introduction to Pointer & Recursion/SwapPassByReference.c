@@ -11,4 +11,6 @@ int main()
     printf("Before Swap a=%d,b=%d\n",a,b);
     swap(&a,&b);
     printf("After Swap a=%d,b=%d\n",a,b);
+    /* Before Swap a=10,b=15
+    After Swap a=15,b=10 */
 }

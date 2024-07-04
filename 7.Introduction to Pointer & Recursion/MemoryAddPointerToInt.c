@@ -9,7 +9,7 @@ int main()
     printf("%d\n",*p); // 25
 
     *p = a+10;
-    printf("%d\n",a);
+    printf("%d\n",a); // 35
 
 
     return 0;
