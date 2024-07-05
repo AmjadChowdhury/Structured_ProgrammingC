@@ -15,7 +15,7 @@ int main()
     struct point b = {4,5};
 
     float ans = manhattan(a,b);
-    printf("%f\n",ans);
+    printf("%f\n",ans); // 7.000000
 
     return 0;
 }

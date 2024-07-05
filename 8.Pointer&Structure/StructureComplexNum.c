@@ -24,7 +24,7 @@ int main()
 
     struct num add = complexAdd(n1,n2);
     comp(add);
-    // 6.00 + 8.00
+    // (6.00) + (-2.00)
 
     return 0;
 }

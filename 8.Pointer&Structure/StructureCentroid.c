@@ -28,7 +28,7 @@ int main()
 
     struct point ans = centroid(t);
     printf("The centroid of this triangle (%f,%f)\n",ans.x,ans.y);
-    //
+    // The centroid of this triangle (2.666667,3.000000)
 
     return 0;
 }

@@ -19,6 +19,7 @@ int main()
 
     struct point ans = mid(a,b);
     printf("Mid point is (%f, %f)\n",ans.x,ans.y);
+    // Mid point is (5.000000, 6.000000)
 
     return 0;
 }
